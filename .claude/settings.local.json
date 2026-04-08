@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python src/load_data.py)",
       "Bash(python src/train_model.py)",
-      "Bash(python src/evaluate.py)"
+      "Bash(python src/evaluate.py)",
+      "Bash(git filter-repo:*)",
+      "Bash(\"C:/Users/anand/AppData/Roaming/Python/Python314/Scripts/jupyter-nbconvert.exe\" --to notebook --execute --inplace notebooks/AMR_DVB_S2X.ipynb --ExecutePreprocessor.timeout=300)"
     ]
   }
 }

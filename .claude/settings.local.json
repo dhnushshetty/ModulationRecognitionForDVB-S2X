@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python src/load_data.py)",
+      "Bash(python src/train_model.py)",
+      "Bash(python src/evaluate.py)"
+    ]
+  }
+}

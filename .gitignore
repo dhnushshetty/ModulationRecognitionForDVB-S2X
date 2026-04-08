@@ -1,0 +1,21 @@
+# ── Large dataset files ────────────────────────────────────────────────────────
+AMR-DVB-S2X/data/*.pkl
+AMR-DVB-S2X/data/*.zip
+AMR-DVB-S2X/data/*.bz2
+AMR-DVB-S2X/data/*.tar
+
+# ── Generated numpy arrays (re-created by running the pipeline) ────────────────
+AMR-DVB-S2X/data/*.npy
+
+# ── Trained model (large, re-created by train_model.py) ───────────────────────
+AMR-DVB-S2X/models/*.pkl
+
+# ── Python cache ───────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Virtual environment ────────────────────────────────────────────────────────
+.venv/
+venv/
+env/

@@ -5,7 +5,17 @@
       "Bash(python src/train_model.py)",
       "Bash(python src/evaluate.py)",
       "Bash(git filter-repo:*)",
-      "Bash(\"C:/Users/anand/AppData/Roaming/Python/Python314/Scripts/jupyter-nbconvert.exe\" --to notebook --execute --inplace notebooks/AMR_DVB_S2X.ipynb --ExecutePreprocessor.timeout=300)"
+      "Bash(\"C:/Users/anand/AppData/Roaming/Python/Python314/Scripts/jupyter-nbconvert.exe\" --to notebook --execute --inplace notebooks/AMR_DVB_S2X.ipynb --ExecutePreprocessor.timeout=300)",
+      "Bash(where jupyter:*)",
+      "Bash(jupyter kernelspec:*)",
+      "Bash(python -m jupyter kernelspec list)",
+      "Bash(where python:*)",
+      "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(C:/Python314/python.exe -c ':*)",
+      "Bash(\"C:/Python314/python.exe\" -c \"import sys; print\\(sys.stdin.buffer.read\\(\\).decode\\('utf-8', errors='replace'\\)\\)\")",
+      "Bash(python3)",
+      "Bash(\"C:/Python314/python.exe\" src/patch_notebook.py)",
+      "Bash(\"c:/Users/anand/Desktop/ML Project/.venv/Scripts/python.exe\" -m nbconvert --to notebook --execute --inplace notebooks/AMR_DVB_S2X.ipynb --ExecutePreprocessor.timeout=900)"
     ]
   }
 }
